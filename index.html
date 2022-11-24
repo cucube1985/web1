@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML practice</title>
+</head>
+<body>   
+        
+    <a href="./index.html">Brown bear</a>
+    <a href="./aboutme.html">About Me</a>
+        
+        
+        <div id="목차">
+            <h3>목차</h3>
+            <ol>
+                <li> About Brown Bears </li >
+                    <ul>
+                        <li>Species</li>
+                        <li>Features</li>
+                    </ul>
+                <li> Habitat </li>
+                    <ul>
+                        <li>Countries with Large Brown Bear Populations</li>
+                        <li>Countries with Small Brown Bear Populations</li>
+                    </ul>
+                <li> Media </li>
+            </ol>
+         <!-- ol은 정렬되어 제시 1.2.3. -->
+         <!-- ul은 정렬 안된 list로 -->
+        </div>
+        
+        <h1>The Brown Bear</h1>
+             <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#habitat">Habitat</a></li>
+                <li><a href="#media">Media</a></li>
+             </ul>
+        <div id="introduction">
+         <h2>About Brown Bears</h2>
+            <p><strong>The brown bear</strong> (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. 
+                <br>Its conservation status is currently <strong>Least Concern</strong>.
+                <br><br> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.
+            </p>
+         <!-- 굵게 strong, 기울이기 em 한줄띄기 br -->
+            <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+            <!-- anchor, 글자클릭시 blank는 새창 열기, 창 열리는 주소 href="" -->
+            <p style="margin-top:45px;"></p>
+            <!-- css 항목. <p></p> 사이 얼마의 단락 간격으로 띄는지.-->
+         <h3>Species</h3>
+            <ul>
+                <li>Arctos</li>
+                <li>Collarus</li>
+                <li>Horribilis</li>
+                <li>Nelsoni (extinct)</li>
+            </ul>
+            <p style="margin-top:45px;"></p>
+         <h3>Features</h3>
+            <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+        </div>
+        
+        <div id="habitat">
+         <p style="margin-top:45px;"></p>
+         <h2>Habitat</h2>
+         <p style="margin-top:45px;"></p>
+         <h3>Countries with Large Brown Bear Populations</h3>
+         <ol>
+          <li>Russia</li>
+          <li>United States</li>
+          <li>Canada</li>
+         </ol>
+         <h3>Countries with Small Brown Bear Populations</h3>
+            <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+        </div>
+
+         <p style="margin-top:45px;"></p>
+        <div id="media">
+            <h2>Media</h2>
+             <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+             <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="Brown Bear" />
+             <!-- img를 link로 wrapping, 클릭하면 새 창으로.-->
+             <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+        </div>
+</body>
+</html>
